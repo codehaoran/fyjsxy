@@ -1728,7 +1728,7 @@ a {
 @media (max-width: 370px) {
 	/*Navbar*/
 	.navbar-brand img {
-		width: 80px;
+		/* width: 80px; */
 	}
 	.sidemenu_btn {
 		top: 15px;
