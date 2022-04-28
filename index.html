@@ -56,14 +56,7 @@
    <!--Navbar-->
    <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-top ">
       <a class="navbar-brand scroll" href="#home">
-      <img class="reactiveImg" src="./static/picture/logo1.png" alt="logo">
-      <script>
-         let reactiveImg = document.querySelector('.reactiveImg')
-         console.log(reactiveImg.src);
-         if(document.body.clientWidth < 1600) {
-            reactiveImg.scr = 'https://code_haoran.gitee.io/fyjsxy/static/picture/'+'xiaoLogo.png'
-         }
-      </script>
+      <img src="./static/picture/logo1.png" alt="logo">
       </a>
       <!--Nav Links-->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -160,6 +153,12 @@
       </ul>
    </div> -->
 </section>
+<script>
+   if(document.body.clientWidth < 1600) {
+      let hide = document.querySelector('.container')
+      hide.style.display = 'none' 
+   }
+</script>
 <!-- End Banner -->
 
 <!-- Start About -->
@@ -189,12 +188,26 @@
          </div>
       </div>
    </div>
-   <div class="rectangle"></div>
+   <div class="rectangle hideRed"></div>
+   <script>
+      if(document.body.clientWidth > 1200){
+         let rectangle = document.querySelector('.hideRed')
+         // console.log(1111111111111);
+         rectangle.style.display = 'none'
+      }
+   </script>
 </section>
 <!-- End About -->
 
 <!-- Start Project -->
 <section class="project-section" id="projects">
+   <div class="container">
+      <div class="row no-gutters">
+         <div class="col-lg-12 col-md-12 col-sm-12 wow fadeInDown" data-wow-delay="300ms">
+            <p class="subheading font">作品展示</p>
+            <h2 class="heading font">阜阳技师学院学生的作品展示</h2>
+         </div>
+      </div>
    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
          <!-- Item-1 -->
@@ -233,7 +246,7 @@
       </a>
    </div>
    <!-- Carousel end -->
-   <div class="container">
+   <!-- <div class="container">
       <div class="rectangle wow fadeInLeft" data-wow-delay="300ms">
          <div class="project-text">
             <h2 class="font">作品展示 <br>个人项目</h2>
@@ -241,7 +254,7 @@
             <a class="btn button btn-rounded white-btn btn-hvr-white scroll" href="#contact">CONTACT ME</a>
          </div>
       </div>
-   </div>
+   </div> -->
 </section>
 <!-- End Project -->
 

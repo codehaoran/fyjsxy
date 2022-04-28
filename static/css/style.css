@@ -1283,7 +1283,7 @@ a {
 	/*About-Section*/
 	.about-section img {
 		position: relative;
-		left: 350px;
+		left:120px;
 	}
 
 	/*Project Section*/
@@ -1337,6 +1337,7 @@ a {
 		text-align: center;
 		background-size: contain;
 		background-repeat: no-repeat;
+		margin-bottom: -300px;
 	}
 	.banner-section .rectangle {
     	width: 1024px;
@@ -1643,6 +1644,7 @@ a {
 	/*Banner Section*/
 	.banner-section {
 		margin-bottom:-7.5rem;
+		margin-bottom: -303px;
 	}
 	.banner-section .rectangle {
 		width: 375px;
