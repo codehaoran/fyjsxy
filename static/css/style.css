@@ -1434,6 +1434,7 @@ a {
 	/*Navbar*/
 	.navbar {
 		height: 75px;
+		align-content: center;
 	}
 	.navbar-fixed-top.scrolled .navbar-brand {
 		display: block;

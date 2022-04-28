@@ -56,7 +56,14 @@
    <!--Navbar-->
    <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-top ">
       <a class="navbar-brand scroll" href="#home">
-      <img src="./static/picture/logo1.png" alt="logo">
+      <img class="reactiveImg" src="./static/picture/logo1.png" alt="logo">
+      <script>
+         let reactiveImg = document.querySelector('.reactiveImg')
+         console.log(reactiveImg.src);
+         if(document.body.clientWidth < 1600) {
+            reactiveImg.scr = 'https://code_haoran.gitee.io/fyjsxy/static/picture/'+'xiaoLogo.png'
+         }
+      </script>
       </a>
       <!--Nav Links-->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
