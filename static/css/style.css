@@ -682,7 +682,7 @@ a {
 .banner-section {
 	background-image: url('../picture/logo.jpg');
 	background-size: cover;
-	height: 100vh;
+	height: 440px;
 }
 
 .banner-section .rectangle {
