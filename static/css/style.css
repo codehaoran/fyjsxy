@@ -1442,7 +1442,7 @@ a {
 
 @media (max-width: 992px) {
 	.banner-section{
-	height: 430px;
+	height: 575px;
 }
 	.heading {
 		font-size: 40px;
@@ -1659,8 +1659,8 @@ a {
 
 	/*Banner Section*/
 	.banner-section {
-		margin-bottom:-7.5rem;
-		margin-bottom: -303px;
+		/* margin-bottom:-7.5rem; */
+		margin-bottom: -407px;
 	}
 	.banner-section .rectangle {
 		width: 375px;
