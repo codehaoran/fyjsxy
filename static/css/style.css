@@ -1272,6 +1272,9 @@ a {
 ====================================== */
 
 @media (width: 1920px) {
+	.banner-section{
+		height: 646px;
+	}
 	/*Banner Section*/
 	.banner-section .rectangle {
 		width: 400px;
@@ -1309,9 +1312,14 @@ a {
 	.header .rectangle .text {
 		bottom: 90px;
 	}
+	.text{
+		top: 230px;
+		/* right: -10px; */
+	}
 }
 
 @media (width: 1600px) {
+	
 	/*StandAlone Page*/
 	.header .rectangle {
 		height: 615px;
@@ -1323,6 +1331,9 @@ a {
 }
 
 @media (max-width: 1200px) {
+	.banner-section{
+		height: 700px;
+	}
 	/*Navbar*/
 	.navbar{
 		background-color: #000 !important;
@@ -1430,6 +1441,9 @@ a {
 }
 
 @media (max-width: 992px) {
+	.banner-section{
+	height: 430px;
+}
 	.heading {
 		font-size: 40px;
 		margin-bottom: 0;
@@ -1505,7 +1519,7 @@ a {
 	.about-section .text-section .heading {
 		font-size: 20px;
 		text-align: center;
-		text-align: left;
+		/* text-align: left; */
 	}
 	.about-section .media {
 		display: block;
@@ -1729,6 +1743,9 @@ a {
 
 @media (max-width: 370px) {
 	/*Navbar*/
+	.banner-section{
+		height:410px;
+	}
 	.navbar-brand img {
 		/* width: 80px; */
 	}
