@@ -844,6 +844,8 @@ a {
 
 .about-section .img-section {
 	z-index: 1;
+	/* position: relative; */
+	/* left: 110px; */
 }
 
 .about-section .rectangle {
